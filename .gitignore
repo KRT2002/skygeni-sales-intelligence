@@ -1,0 +1,35 @@
+# Environment — never commit secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+venv/
+env/
+uv.lock
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data — raw data should not be committed to public repos
+# Comment these out if your repo is private and data is not sensitive
+# data/raw/
+# data/processed/
+
+# Outputs — generated files
+# outputs/figures/
+# outputs/reports/
+
+# IDE
+.vscode/
+.idea/
+*.swp

@@ -1,0 +1,49 @@
+{
+  "narrative": "## Situation\nThe overall win rate has decreased by 2.1 percentage points, from 45.6% in 2023 to 43.6% in 2024Q1. This change is largely driven by declines in specific segments, including a 5.4pp decrease in the Inbound lead source and a 4.1pp decrease in the Enterprise product type. The region with the largest win-rate decline is Europe, with a 4.3pp decrease. These changes have significant estimated revenue impacts, including $372,059 for Inbound leads and $270,725 for the Europe region.\n\n## Root Causes\n* The Inbound lead source has experienced a 5.4pp decline in win rate, resulting in an estimated revenue impact of $372,059, indicating a significant issue with converting inbound leads.\n* The Enterprise product type has seen a 4.1pp decline in win rate, with an estimated revenue impact of $318,291, suggesting challenges in selling to enterprise customers.\n* The Europe region has a 4.3pp decline in win rate, with an estimated revenue impact of $270,725, highlighting regional performance issues.\n* The conversion effect, particularly in the region and industry, is a significant driver, with a -2.04pp and -2.10pp impact, respectively, indicating that the sales team's ability to convert leads is a key issue.\n\n## Recommended Actions\nTo address the declining win rate, the CRO should focus on improving the conversion of Inbound leads and sales performance in the Europe region. Additionally, the CRO should review the sales strategy for Enterprise product types to identify opportunities for improvement. By addressing these specific areas, the company can mitigate the estimated revenue impacts and improve overall win rates.",
+  "context": {
+    "cohort": {
+      "baseline_wr": 0.4565,
+      "current_wr": 0.436,
+      "absolute_change": -0.0205,
+      "relative_change": -0.045
+    },
+    "top_segment_changes": [
+      {
+        "dimension": "lead_source",
+        "segment": "Inbound",
+        "wr_change": -0.05390732408448945,
+        "revenue_impact": -372059.07877140364
+      },
+      {
+        "dimension": "product_type",
+        "segment": "Enterprise",
+        "wr_change": -0.04109982465687162,
+        "revenue_impact": -318291.30378196976
+      },
+      {
+        "dimension": "region",
+        "segment": "Europe",
+        "wr_change": -0.043399141630901306,
+        "revenue_impact": -270724.71347639494
+      },
+      {
+        "dimension": "lead_source",
+        "segment": "Outbound",
+        "wr_change": -0.037504762509525,
+        "revenue_impact": -262892.67069627874
+      },
+      {
+        "dimension": "industry",
+        "segment": "EdTech",
+        "wr_change": -0.034577197351478184,
+        "revenue_impact": -183086.3982848664
+      },
+      {
+        "dimension": "lead_source",
+        "segment": "Referral",
+        "wr_change": 0.022309502542956994,
+        "revenue_impact": 150590.7930681479
+      }
+    ]
+  }
+}
