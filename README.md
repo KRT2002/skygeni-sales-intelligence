@@ -82,14 +82,12 @@ skygeni-sales-intelligence/
 │   ├── insight_narrator.py           ← LLM narrative generation (Groq/LLaMA)
 │   └── report_builder.py             ← Self-contained HTML report assembler
 │
-├── outputs/
-│   ├── reports/
-│   │   ├── executive_report.html      ← Generated: full HTML report
-│   │   ├── risk_scores.csv            ← Generated: 2024-Q1 scored deals
-│   │   └── analysis_context.json     ← Generated: context passed between notebooks
-│   └── figures/                       ← Generated: all visualisation exports (16 charts)
-│
-└── build_notebooks.py                 ← Generates the .ipynb files from source
+└── outputs/
+    ├── reports/
+    │   ├── executive_report.html      ← Generated: full HTML report
+    │   ├── risk_scores.csv            ← Generated: 2024-Q1 scored deals
+    │   └── analysis_context.json     ← Generated: context passed between notebooks
+    └── figures/                       ← Generated: all visualisation exports (16 charts)
 ```
 
 ---
